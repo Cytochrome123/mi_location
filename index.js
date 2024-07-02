@@ -51,6 +51,6 @@ app.get('/api/hello', async (req, res) => {
 })
 
 
-app.listen(2000, () => {
-    console.log('HNG listening on port 2000');
+app.listen(3000, () => {
+    console.log('HNG listening on port 3000');
 });
