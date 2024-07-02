@@ -8,7 +8,6 @@ const requestIp = require('request-ip');
 const app = express();
 
 
-
 weather.setLang('en');
 weather.setUnits('metric');
 weather.setAPPID(process.env.OPENWEATHER_API);
